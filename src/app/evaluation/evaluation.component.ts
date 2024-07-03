@@ -4,8 +4,8 @@ import { Component } from "@angular/core";
   selector: "app-evaluation",
   standalone: true,
   imports: [],
-  templateUrl:'./evaluation.component.html',
-  styleUrl:'./evaluation.component.css',
+  templateUrl: "./evaluation.component.html",
+  styleUrl: "./evaluation.component.css",
 })
 export class EvaluationComponent {
   cvs = [
@@ -163,4 +163,14 @@ export class EvaluationComponent {
   
   Nous avons hâte de vous rencontrer et de discuter de cette opportunité avec vous !`,
   };
+  dislikedCVs: number[] = [];
+  likedCVs: number[] = [];
+
+  onDislike(id: number): void {
+    this.dislikedCVs.push(id);
+  }
+
+  onLike(id: number): void {
+    this.likedCVs.push(id);
+  }
 }
