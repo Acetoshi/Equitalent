@@ -1,16 +1,20 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import data from "./data.json";
 
 @Component({
   selector: 'app-analysis',
   standalone: true,
   imports: [],
-  template: `
-    <p>
-      analysis works!
-    </p>
-  `,
+  templateUrl: './analysis.component.html',
   styles: ``
 })
-export class AnalysisComponent {
+
+export class AnalysisComponent implements OnInit {
+
+data = data; 
+
+  ngOnInit(): void {
+    console.log("ici les données du back");
+  }
 
 }
