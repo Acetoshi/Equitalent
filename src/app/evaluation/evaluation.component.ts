@@ -5,7 +5,7 @@ import { Component } from "@angular/core";
   standalone: true,
   imports: [],
   templateUrl:'./evaluation.component.html',
-  styles: ``,
+  styleUrl:'./evaluation.component.css',
 })
 export class EvaluationComponent {
   cvs = [
