@@ -6,12 +6,16 @@
   --dark-color: #260d45;
   --light-color: #f3e8fc;
   --accent-color1: #440496;
-  --accent-color2: #ff843c;
+  /* --accent-color2: #ff843c; */
+  --accent-color2: #25e19d;
+  --accent-color3: #f1117d;
 
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
+
 
 h1,
 h2,
@@ -24,8 +28,35 @@ a {
   text-decoration: none;
 }
 
-p {
+p,
+button,
+li {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.button-accent {
+  padding: 16px 32px;
+  color: var(--light-color);
+  border-radius: 32px;
+  border: 0px;
+}
+
+.button-accent2 {
+  background-color: var(--accent-color2);
+}
+
+.button-accent3{
+  background-color: var(--accent-color3);
+}
+
+.button-accent:hover {
+  cursor: pointer;
+}
+
+.button-accent:disabled {
+  background-color: #d9d9d9;
+  color: black;
+  cursor: auto;
 }
