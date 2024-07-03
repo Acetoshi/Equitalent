@@ -9,21 +9,23 @@
   /* --accent-color2: #ff843c; */
   --accent-color2: #25e19d;
   --accent-color3: #f1117d;
-}
 
-body {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: 0;
 }
+
+
 
 h1,
 h2,
 h3,
-h4 {
+h4,
+a {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
+  text-decoration: none;
 }
 
 p,
