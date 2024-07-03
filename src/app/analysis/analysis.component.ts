@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import data from "./data.json";
+
 
 @Component({
   selector: 'app-analysis',
@@ -10,11 +10,10 @@ import data from "./data.json";
 })
 
 export class AnalysisComponent implements OnInit {
-
-data = data; 
+  analysisResult = ANALYSIS;
 
   ngOnInit(): void {
-    console.log("ici les données du back");
+    console.table(this.analysisResult);
   }
 
 }
