@@ -1,0 +1,53 @@
+<p>evaluation works!</p>
+<section class="job-description">
+  <h1>{{ jobDescription.title }}</h1>
+  <p>{{ jobDescription.text }}</p>
+</section>
+<section class="cv-container">
+  @for (cv of cvs; track cv.id) {
+  <li>
+    <article classname="cv">
+      <section classname="contact">
+        <h3>Contact</h3>
+        <ul>
+          <li>{{ cv.firstname }} {{ cv.lastname }}</li>
+          <li>tel : {{ cv.tel }}</li>
+          <li>mail : {{ cv.tel }}</li>
+          <li>age : {{ cv.age }} ans</li>
+        </ul>
+      </section>
+
+      <section classname="experience">
+        <h3>Expérience</h3>
+        <ul>
+          @for (experience of cv.experiences; track experience.company){
+          <li>
+            <h4>{{ experience.position }} - {{ experience.company }}</h4>
+            <p>{{ experience.startDate }} - {{ experience.endDate }}</p>
+            <p>{{ experience.description }}</p>
+          </li>
+          }
+        </ul>
+      </section>
+
+      <section classname="education">
+        <h3>Diplomes</h3>
+        <ul>
+          @for (diploma of cv.education; track diploma.degree){
+          <li>
+            <h4>{{ diploma.degree }}</h4>
+            <p>{{ diploma.date }}</p>
+            <p>{{ diploma.description }}</p>
+          </li>
+          }
+        </ul>
+      </section>
+
+      <button>DISLIKE</button>
+      <button>LIKE</button>
+    </article>
+  </li>
+  } @empty {
+  <li>There are no cvs.</li>
+  }
+</section>
