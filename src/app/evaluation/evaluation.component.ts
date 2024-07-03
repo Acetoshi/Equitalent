@@ -7,8 +7,7 @@ import { SelectedcvsService } from "../services/selectedcvs.service";
   standalone: true,
   imports: [],
   templateUrl: "./evaluation.component.html",
-  styleUrl: "./evaluation.component.css",
-  providers: [SelectedcvsService]
+  styleUrls: ["./evaluation.component.css"],
 })
 export class EvaluationComponent {
   cvs = evaluation.cvs;
@@ -30,6 +29,6 @@ export class EvaluationComponent {
 
   onLike(id: number): void {
     this.data.add(id);
-    console.log(this.data.likedCVs);
+    console.log(this.data.get());
   }
 }

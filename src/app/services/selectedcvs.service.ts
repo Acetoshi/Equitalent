@@ -4,9 +4,11 @@ import { Injectable } from "@angular/core";
   providedIn: "root",
 })
 export class SelectedcvsService {
-  public likedCVs: number[] = [];
+  likedCVs: number[] = [];
 
-  constructor() {}
+  constructor() {
+    console.log("SelectedcvsService instance created");
+  }
 
   add(id: number): void {
     if (!this.likedCVs.includes(id)) {
@@ -17,5 +19,9 @@ export class SelectedcvsService {
         this.likedCVs.splice(index, 1);
       }
     }
+  }
+
+  get(): number[] {
+    return this.likedCVs;
   }
 }
