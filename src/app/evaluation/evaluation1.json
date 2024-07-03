@@ -8,6 +8,7 @@
         "tel": "0234356789",
         "mail": "duschnok@gmail.com",
         "age": 34,
+        "rqth": true,
         "experiences": [
           {
             "company": "Company A",
@@ -66,6 +67,7 @@
         "tel": "0345678910",
         "mail": "sophie.dupont@example.com",
         "age": 29,
+        "rqth":false,
         "experiences": [
           {
             "company": "Company C",
