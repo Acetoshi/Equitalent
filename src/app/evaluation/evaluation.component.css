@@ -2,8 +2,8 @@ main {
   height: 100dvh;
   display: grid;
   grid-template: 1fr / 1fr 1fr;
-  gap: 32px;
-  padding: 32px;
+  gap: 64px;
+  padding: 64px;
 }
 
 .job-description,
@@ -22,6 +22,14 @@ li {
 
 .job-description {
   background-color: var(--dark-color);
+  padding: 32px;
+  border-radius: 16px;
+  & p {
+    color: var(--light-color);
+  }
+  & h1 {
+    color: var(--accent-color2);
+  }
 }
 
 .cv-container {
@@ -30,7 +38,8 @@ li {
 
 .cv {
   background-color: var(--light-color);
-  padding: 16px;
+  padding: 32px;
+  border-radius: 16px;
   & .button-section {
     display: flex;
     justify-content: space-between;
