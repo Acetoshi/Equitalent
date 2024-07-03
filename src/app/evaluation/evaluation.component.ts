@@ -1,18 +1,20 @@
-import { Component } from "@angular/core";
+import { Component, inject } from "@angular/core";
 import evaluation from "./evaluation1.json";
+import { SelectedcvsService } from "../services/selectedcvs.service";
 
 @Component({
   selector: "app-evaluation",
   standalone: true,
   imports: [],
   templateUrl: "./evaluation.component.html",
-  styleUrl: "./evaluation.component.css",
+  styleUrls: ["./evaluation.component.css"],
 })
 export class EvaluationComponent {
   cvs = evaluation.cvs;
   jobDescription = evaluation.jobDescription;
   dislikedCVs: number[] = [];
-  likedCVs: number[] = [];
+
+  data = inject(SelectedcvsService);
 
   onDislike(id: number): void {
     if (!this.dislikedCVs.includes(id)) {
@@ -23,17 +25,10 @@ export class EvaluationComponent {
         this.dislikedCVs.splice(index, 1);
       }
     }
-    console.log("dislikedCVs : ", this.dislikedCVs);
   }
 
   onLike(id: number): void {
-    if (!this.likedCVs.includes(id)) {
-      this.likedCVs.push(id);
-    } else {
-      const index = this.likedCVs.indexOf(id);
-      if (index > -1) {
-        this.likedCVs.splice(index, 1);
-      }
-    }
+    this.data.add(id);
+    console.log(this.data.get());
   }
 }
