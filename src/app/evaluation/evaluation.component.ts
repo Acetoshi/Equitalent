@@ -17,14 +17,23 @@ export class EvaluationComponent {
   onDislike(id: number): void {
     if (!this.dislikedCVs.includes(id)) {
       this.dislikedCVs.push(id);
+    } else {
+      const index = this.dislikedCVs.indexOf(id);
+      if (index > -1) {
+        this.dislikedCVs.splice(index, 1);
+      }
     }
-    console.log('dislikedCVs : ',this.dislikedCVs);
+    console.log("dislikedCVs : ", this.dislikedCVs);
   }
 
   onLike(id: number): void {
     if (!this.likedCVs.includes(id)) {
       this.likedCVs.push(id);
+    } else {
+      const index = this.likedCVs.indexOf(id);
+      if (index > -1) {
+        this.likedCVs.splice(index, 1);
+      }
     }
-    console.log('likedCVs : ',this.likedCVs);
   }
 }
