@@ -9,7 +9,7 @@ import { RouterModule, RouterOutlet } from "@angular/router";
   template: `
       <nav class="navbar">
       <figure class="logo">
-        <h1>EQUITALENT</h1>
+        <h2>EQUITALENT</h2>
       </figure>
       <div class="nav-link">
         <a routerLink="" draggable=false>Acceuil</a>
