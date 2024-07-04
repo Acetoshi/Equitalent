@@ -11,12 +11,12 @@ import { RouterModule } from "@angular/router";
       <div class="img-container">
         <img
           alt="logo equitalent avec le E dans une loupe"
-          class="logo-typographic"
-          src="/logoLoupe.svg"
+          id="logo-loupe"
+          src="/logoLoupe2.png"
         />
         <img
           alt="logo equitalent avec le E dans une loupe"
-          class="logo-typographic"
+          id="logo-typographic"
           src="/logoText.svg"
           />
           <!-- <img
