@@ -1,0 +1,51 @@
+.good-practices {
+    display: flex;
+    flex-direction: column;
+    gap:64px;
+    margin: 0px 64px 64px 64px;
+
+  & h1 {
+    text-align: center;
+    margin: 96px 0px 32px 0px;
+  }  
+
+  & .card {
+    background-color:fuchsia;
+    padding:32px;
+    border-radius: 16px;
+    display:flex;
+    flex-direction: column;
+    gap:32px;
+    & li {
+        margin-left:32px;
+    }
+  }
+
+
+  & .green-card{
+    background-color: var(--accent-color2);
+    color: var(--dark-color)
+  }
+
+  & .blue-card{
+    background-color: var(--dark-color);
+    color: var(--light-color)
+  }
+  
+
+  & .lightblue-card{
+    background-color: var(--light-color);
+    color: var(--dark-color)
+  }
+
+  & .vertical-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap:64px;
+  }
+
+  & .horizontal-wrapper {
+    display: flex;
+    gap:64px;
+  }
+}
