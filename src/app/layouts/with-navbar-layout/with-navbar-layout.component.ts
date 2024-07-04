@@ -12,10 +12,10 @@ import { RouterModule, RouterOutlet } from "@angular/router";
         <img alt="logo equitalent avec le E dans une loupe" class="logo-compact" src="/greenCompactLogo.svg"/>
       </figure>
       <div class="nav-link">
-        <a routerLink="" draggable=false>Acceuil</a>
+        <a routerLink="" draggable=false>Accueil</a>
         <a routerLink="evaluation" routerLinkActive="active" draggable=false>Evaluation</a>
         <a routerLink="analysis" routerLinkActive="active" draggable=false> Analyses </a>
-        <a routerLink="good-practises" routerLinkActive="active" > Bonnes pratiques </a>
+        <a routerLink="good-practises" routerLinkActive="active" draggable=false> Bonnes pratiques </a>
       </div>
     </nav>
 
