@@ -1,9 +1,8 @@
 main {
-  height: calc(90svh);
+  height: calc(94svh);
   display: grid;
   grid-template: 1fr / 1fr 1fr;
   gap: 64px;
-  padding: 64px;
   margin: 0;
 }
 
@@ -21,6 +20,7 @@ li {
 }
 
 .job-description {
+  margin: 64px 0px 64px 64px;
   background-color: var(--accent-color2);
   padding: 32px;
   border-radius: 16px;
@@ -42,12 +42,15 @@ li {
 }
 
 .cv-container {
-  gap: 32px;
+  padding-top: 64px;
+  padding-right: 64px;
+  gap: 64px;
 }
 
 .cv {
+  position: relative;
   background-color: var(--dark-color);
-  padding: 32px;
+  padding: 32px 32px 48px 32px;
   border-radius: 16px;
   display: flex;
   flex-direction: column;
@@ -63,7 +66,14 @@ li {
   }
 
   & .button-section {
+    width: 92%;
+    position: absolute;
+    bottom: -20px;
     display: flex;
     justify-content: space-between;
   }
+}
+
+.button-next {
+  margin-bottom: 45vh;
 }
