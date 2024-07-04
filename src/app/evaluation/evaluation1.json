@@ -586,7 +586,7 @@
         ],
         "education": [
           {
-            "degree": "BSc in Computer Science",
+            "degree": " bac +2 developper Front-end",
             "date": "2010-09-01",
             "description": "Studied core computer science subjects and participated in various coding competitions."
           }
@@ -601,29 +601,23 @@
           "CSS"
         ],
         "softSkills": [
-          "JavaScript",
-          "sympa"
+          "Collaboration",
+          "sympa",
+          "motiver"
         ],
         "languages": [
           {
             "language": "French",
             "proficiency": "Native"
-          },
-          {
-            "language": "English",
-            "proficiency": "Fluent"
           }
         ],
         "hobbies": [
           {
-            "name": "basket"
+            "name": "jardinage"
           }
         ],
         "biais": [
-          "age",
-          "ethnicity",
-          "gender",
-          "handicap"
+          "age"
         ],
         "fitsDescription": false
       }
