@@ -17,10 +17,10 @@ import "../styles.css";
         <h1>David Le Gall</h1>
       </figure>
       <div class="nav-link">
-        <a routerLink="/">Acceuil</a>
-        <a routerLink="/evaluation">Evaluation</a>
-        <a routerLink="/analysis"> Analyses </a>
-        <a routerLink="/good-practises"> Bonnes pratiques </a>
+        <a routerLink="/home" routerLinkActive="active" draggable=false>Acceuil</a>
+        <a routerLink="/evaluation" routerLinkActive="active" draggable=false>Evaluation</a>
+        <a routerLink="/analysis" routerLinkActive="active" draggable=false> Analyses </a>
+        <a routerLink="/good-practises" routerLinkActive="active" > Bonnes pratiques </a>
       </div>
     </nav>
 
