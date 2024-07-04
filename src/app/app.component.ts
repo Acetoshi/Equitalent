@@ -14,7 +14,7 @@ import "../styles.css";
           src="https://ca.slack-edge.com/T6SG2QGG2-U06LCLAS952-84583a93af96-512"
           alt=""
         />
-        <h1>David Le Gall</h1>
+        <h1>EQUITALENT</h1>
       </figure>
       <div class="nav-link">
         <a routerLink="/home" routerLinkActive="active" draggable=false>Acceuil</a>
