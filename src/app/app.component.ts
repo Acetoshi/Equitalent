@@ -17,7 +17,7 @@ import "../styles.css";
         <h1>EQUITALENT</h1>
       </figure>
       <div class="nav-link">
-        <a routerLink="/home" routerLinkActive="active" draggable=false>Acceuil</a>
+        <a routerLink="/home" routerLinkActive="active" draggable=false>Accueil</a>
         <a routerLink="/evaluation" routerLinkActive="active" draggable=false>Evaluation</a>
         <a routerLink="/analysis" routerLinkActive="active" draggable=false> Analyses </a>
         <a routerLink="/good-practises" routerLinkActive="active" > Bonnes pratiques </a>
