@@ -6,11 +6,7 @@ import "../styles.css";
   selector: "app-root",
   standalone: true,
   imports: [RouterOutlet, RouterModule],
-  template: `
-
-
-    <router-outlet></router-outlet>
-  `,
+  template: ` <router-outlet></router-outlet> `,
 })
 export class AppComponent {
   title = "hackathon";
