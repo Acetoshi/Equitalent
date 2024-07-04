@@ -9,7 +9,7 @@
   & figure>img {
     height: 30px;
     margin-left:16px;
-    transform: translateY(4px);
+    transform: translateY(2px);
   }
 }
 

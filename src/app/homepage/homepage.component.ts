@@ -7,8 +7,24 @@ import { RouterModule } from "@angular/router";
   imports: [RouterModule],
   template: `
     <main class="homepage">
-    <img alt="" class="background-wave" src="/clearGreenWave.svg"/>
-      <img alt="logo equitalent avec le E dans une loupe" class="logo-typographic" src="/blueTypoLogo.svg"/>
+      <img alt="" class="background-wave" src="/clearGreenWave.svg" />
+      <div class="img-container">
+        <img
+          alt="logo equitalent avec le E dans une loupe"
+          class="logo-typographic"
+          src="/logoLoupe.svg"
+        />
+        <img
+          alt="logo equitalent avec le E dans une loupe"
+          class="logo-typographic"
+          src="/logoText.svg"
+          />
+          <!-- <img
+          alt="logo equitalent avec le E dans une loupe"
+          class="logo-typographic"
+          src="/blueTypoLogo.svg"
+        /> -->
+      </div>
       <section class="call-to-action">
         <h1>Serez-vous le meilleur RH ?</h1>
         <a
