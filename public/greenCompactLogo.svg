@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Calque_1"
+   data-name="Calque 1"
+   viewBox="0 0 210.3525 209.6625"
+   version="1.1"
+   sodipodi:docname="Green_Logo.svg"
+   width="210.35249"
+   height="209.66251"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview12"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.85690722"
+     inkscape:cx="428.28441"
+     inkscape:cy="127.20164"
+     inkscape:window-width="1920"
+     inkscape:window-height="1056"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Calque_1" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">
+      .cls-1 {
+        fill: #021859;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #25e19d;
+      }
+    </style>
+  </defs>
+  <g
+     id="g2">
+    <path
+       class="cls-2"
+       d="m 206.55,201.29 -4.56,4.57 c -5.07,5.07 -13.29,5.07 -18.35,0 l -26.69,-26.69 c -3.06,-3.06 -4.27,-7.25 -3.64,-11.22 l -6.91,-6.91 15.33,-15.33 6.9,6.9 c 3.96,-0.63 8.17,0.58 11.23,3.64 l 26.69,26.7 c 5.07,5.06 5.07,13.28 0,18.34 z"
+       id="path1" />
+    <path
+       class="cls-2"
+       d="m 142.62,163.59 c -14.77,10.58 -32.88,16.8 -52.43,16.8 C 40.38,180.39 0,140.01 0,90.2 0,40.39 40.38,0 90.19,0 c 49.81,0 90.19,40.39 90.19,90.2 0,30.26 -14.9,57.03 -37.76,73.39 z"
+       id="path2" />
+  </g>
+  <path
+     class="cls-1"
+     d="m 65.64,139.28 c -4.2,0 -6.3,-2.1 -6.3,-6.3 v -89.1 c 0,-4.2 2.1,-6.3 6.3,-6.3 h 53.85 c 4.2,0 6.3,2.1 6.3,6.3 0,4.2 -2.1,6.3 -6.3,6.3 H 71.94 v 31.5 h 29.85 c 4.2,0 6.3,2.1 6.3,6.3 0,4.2 -2.1,6.3 -6.3,6.3 H 71.94 v 32.4 h 47.55 c 4.2,0 6.3,2.1 6.3,6.3 0,4.2 -2.1,6.3 -6.3,6.3 z"
+     id="path12" />
+</svg>

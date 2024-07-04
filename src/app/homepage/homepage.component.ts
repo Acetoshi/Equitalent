@@ -8,7 +8,7 @@ import { RouterModule } from "@angular/router";
   template: `
     <main class="homepage">
     <img alt="" class="background-wave" src="/clearGreenWave.svg"/>
-      <h2>E QUITALENT</h2>
+      <img alt="logo equitalent avec le E dans une loupe" class="logo-typographic" src="/blueTypoLogo.svg"/>
       <section class="call-to-action">
         <h1>Serez-vous le meilleur RH ?</h1>
         <a

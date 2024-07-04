@@ -5,6 +5,12 @@
   background-color: var(--dark-color);
   color: var(--light-color);
   height : 3em;
+
+  & figure>img {
+    height: 30px;
+    margin-left:16px;
+    transform: translateY(4px);
+  }
 }
 
 .nav-link {

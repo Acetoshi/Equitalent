@@ -9,7 +9,7 @@ import { RouterModule, RouterOutlet } from "@angular/router";
   template: `
       <nav class="navbar">
       <figure class="logo">
-        <h2>EQUITALENT</h2>
+        <img alt="logo equitalent avec le E dans une loupe" class="logo-compact" src="/greenCompactLogo.svg"/>
       </figure>
       <div class="nav-link">
         <a routerLink="" draggable=false>Acceuil</a>
