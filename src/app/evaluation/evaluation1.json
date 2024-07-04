@@ -488,57 +488,60 @@
             "name": "Voyages"
           }
         ],
-        "biais": [
-        ],
+        "biais": [],
         "fitsDescription": false
       },
       {
-        "id": 8,
+        "id": 9,
         "firstname": "Jasmine",
         "lastname": "Khalid",
         "tel": "0140892479",
         "mail": "khalid_jasmine@gmail.com",
-        "age": 29,
+        "age": 36,
         "rqth": false,
         "experiences": [
           {
-            "company": "Company A",
-            "position": "Assistant Marketing",
-            "startDate": "2018-01-01",
+            "company": "Duhamel",
+            "position": "Responsable Marketing'",
+            "startDate": "2012-01-01",
             "endDate": "2020-01-01",
-            "description": "Developed web applications using React and Node.js."
+            "description": " "
           },
           {
-            "company": "Company B",
-            "position": "Senior Developer",
+            "company": "Lemoine S.A.",
+            "position": "Chef de produit marketing",
             "startDate": "2020-02-01",
             "endDate": "Present",
-            "description": "Leading a team of developers in creating enterprise solutions."
+            "description": " "
           }
         ],
         "education": [
           {
-            "degree": "BSc in Computer Science",
-            "date": "2010-09-01",
-            "description": "Studied core computer science subjects and participated in various coding competitions."
+            "degree": "Bac+5 en Communication marketing",
+            "date": "2012-09-01",
+            "description": "Studied Marketing Digital."
           }
         ],
         "hardSkills": [
-          "JavaScript",
-          "Angular",
-          "React",
-          "Node.js",
-          "TypeScript",
-          "HTML",
-          "CSS"
+          "Project Management Tools (e.g., Trello, Asana)",
+          "A/B Testing",
+          "Web Development (basic understanding of HTML, CSS)",
+          " PPC (Pay-Per-Click) Advertising",
+          "Copywriting"
         ],
         "softSkills": [
-          "JavaScript",
-          "sympa"
+          "Gestion du stress",
+          "Confiance en soi",
+          "Résolution de problèmes",
+          "Éthique professionnelle"
         ],
         "languages": [
           {
-            "language": "French",
+            "language": "Arabe",
+            "proficiency": "Native"
+          },
+          {
+            "language": "Français",
             "proficiency": "Native"
           },
           {
@@ -552,40 +555,38 @@
           }
         ],
         "biais": [
-          "age",
           "ethnicity",
-          "gender",
-          "handicap"
+          "gender"
         ],
         "fitsDescription": true
       },
       {
-        "id": 8,
-        "firstname": "Avery",
-        "lastname": "Quinn",
+        "id": 10,
+        "firstname": "Michel",
+        "lastname": "houelbec",
         "tel": "0140892479",
-        "mail": "quinn43@gmail.com",
-        "age": 29,
+        "mail": "michel.houelbec@gmail.com",
+        "age": 56,
         "rqth": false,
         "experiences": [
           {
-            "company": "Company A",
-            "position": "Assistant Marketing",
-            "startDate": "2018-01-01",
-            "endDate": "2020-01-01",
+            "company": "Merle",
+            "position": "Responsable Marketing",
+            "startDate": "1990-01-01",
+            "endDate": "1998-01-01",
             "description": "Developed web applications using React and Node.js."
           },
           {
-            "company": "Company B",
-            "position": "Senior Developer",
-            "startDate": "2020-02-01",
+            "company": "David S.A",
+            "position": "Responsable Marketing",
+            "startDate": "1998-02-01",
             "endDate": "Present",
-            "description": "Leading a team of developers in creating enterprise solutions."
+            "description": "Leading a team of developers in creating marketing solutions."
           }
         ],
         "education": [
           {
-            "degree": "BSc in Computer Science",
+            "degree": " bac +2 developper Front-end",
             "date": "2010-09-01",
             "description": "Studied core computer science subjects and participated in various coding competitions."
           }
@@ -600,31 +601,25 @@
           "CSS"
         ],
         "softSkills": [
-          "JavaScript",
-          "sympa"
+          "Collaboration",
+          "sympa",
+          "motiver"
         ],
         "languages": [
           {
             "language": "French",
             "proficiency": "Native"
-          },
-          {
-            "language": "English",
-            "proficiency": "Fluent"
           }
         ],
         "hobbies": [
           {
-            "name": "basket"
+            "name": "jardinage"
           }
         ],
         "biais": [
-          "age",
-          "ethnicity",
-          "gender",
-          "handicap"
+          "age"
         ],
-        "fitsDescription": true
+        "fitsDescription": false
       }
     ],
     "jobDescription": {
