@@ -53,7 +53,7 @@
           <button
             class="button-accent button-accent2"
             (click)="onLike(cv.id)"
-            [disabled]="dislikedCVs.includes(cv.id)"
+            [disabled]="data.dislikedCVs.includes(cv.id)"
           >
             Retenir
           </button>
