@@ -11,7 +11,7 @@ import { RouterModule } from "@angular/router";
       <h1>"Serez-vous le meilleur RH ?"</h1>
       <a
         class="button-accent button-accent-dark"
-        routerLink="/evaluation"
+        routerLink="equitalent/evaluation"
         draggable="false"
         >Trouvez les CV qui matchent le mieux avec l'annonce !</a
       >
