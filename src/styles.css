@@ -65,3 +65,11 @@ li {
   color: black;
   cursor: auto;
 }
+
+.background-wave {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index:-1;
+    width:100vw;
+}
