@@ -4,13 +4,8 @@ import { Component } from '@angular/core';
   selector: 'app-goodpractises',
   standalone: true,
   imports: [],
-  template: `
-    <p>
-      goodpractises works!
-    </p>
-    <img alt="" class="background-wave" src="/clearGreenWave.svg"/>
-  `,
-  styles: ``
+  templateUrl:'./goodpractises.component.html',
+  styleUrls:['./goodpractises.component.css']
 })
 export class GoodPractisesComponent {
 
