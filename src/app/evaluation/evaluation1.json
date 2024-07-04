@@ -379,23 +379,23 @@
       },
       {
         "id": 7,
-        "firstname": "Avery",
-        "lastname": "Quinn",
+        "firstname": "Nathalie",
+        "lastname": "Caron",
         "tel": "0140892479",
-        "mail": "quinn43@gmail.com",
-        "age": 29,
-        "rqth": false,
+        "mail": "carron66558@gmail.com",
+        "age": 41,
+        "rqth": true,
         "experiences": [
           {
-            "company": "Company A",
-            "position": "Assistant Marketing",
+            "company": "Poirier Lefebvre S.A.S.",
+            "position": "Responsable CRM",
             "startDate": "2018-01-01",
             "endDate": "2020-01-01",
             "description": "Developed web applications using React and Node.js."
           },
           {
-            "company": "Company B",
-            "position": "Senior Developer",
+            "company": "Bouchet",
+            "position": "Chef de produit marketing",
             "startDate": "2020-02-01",
             "endDate": "Present",
             "description": "Leading a team of developers in creating enterprise solutions."
@@ -403,23 +403,24 @@
         ],
         "education": [
           {
-            "degree": "BSc in Computer Science",
-            "date": "2010-09-01",
+            "degree": "DEUG en Marketing digital",
+            "date": "1997-09-01",
             "description": "Studied core computer science subjects and participated in various coding competitions."
           }
         ],
         "hardSkills": [
-          "JavaScript",
-          "Angular",
-          "React",
-          "Node.js",
-          "TypeScript",
+          "Public Relations",
+          "Social Media Management",
+          "Project Management Tools (e.g., Trello, Asana)",
+          "Web Development (basic understanding of HTML, CSS)",
           "HTML",
           "CSS"
         ],
         "softSkills": [
-          "JavaScript",
-          "sympa"
+          "Leadership",
+          "Créativité",
+          "Prise de décision",
+          "Gestion du stress"
         ],
         "languages": [
           {
@@ -433,12 +434,10 @@
         ],
         "hobbies": [
           {
-            "name": "basket"
+            "name": "Sport"
           }
         ],
         "biais": [
-          "age",
-          "ethnicity",
           "gender",
           "handicap"
         ],
@@ -446,77 +445,59 @@
       },
       {
         "id": 8,
-        "firstname": "Avery",
-        "lastname": "Quinn",
+        "firstname": "Alain",
+        "lastname": "Barbier",
         "tel": "0140892479",
-        "mail": "quinn43@gmail.com",
-        "age": 29,
+        "mail": "barbier.alain@gmail.com",
+        "age": 32,
         "rqth": false,
         "experiences": [
           {
-            "company": "Company A",
-            "position": "Assistant Marketing",
+            "company": "Perrier Regnier SA",
+            "position": "Responsable CRM",
             "startDate": "2018-01-01",
-            "endDate": "2020-01-01",
-            "description": "Developed web applications using React and Node.js."
-          },
-          {
-            "company": "Company B",
-            "position": "Senior Developer",
-            "startDate": "2020-02-01",
             "endDate": "Present",
-            "description": "Leading a team of developers in creating enterprise solutions."
+            "description": "Developed web applications"
           }
         ],
         "education": [
           {
-            "degree": "BSc in Computer Science",
+            "degree": " BTS Communication marketing",
             "date": "2010-09-01",
-            "description": "Studied core computer science subjects and participated in various coding competitions."
+            "description": " "
           }
         ],
         "hardSkills": [
-          "JavaScript",
-          "Angular",
-          "React",
-          "Node.js",
-          "TypeScript",
-          "HTML",
-          "CSS"
+          "Influencer Marketing",
+          "Google Analytics"
         ],
         "softSkills": [
-          "JavaScript",
-          "sympa"
+          "Gestion du stress",
+          "Confiance en soi",
+          "Résolution de problèmes",
+          "Éthique professionnelle"
         ],
         "languages": [
           {
             "language": "French",
             "proficiency": "Native"
-          },
-          {
-            "language": "English",
-            "proficiency": "Fluent"
           }
         ],
         "hobbies": [
           {
-            "name": "basket"
+            "name": "Voyages"
           }
         ],
         "biais": [
-          "age",
-          "ethnicity",
-          "gender",
-          "handicap"
         ],
-        "fitsDescription": true
+        "fitsDescription": false
       },
       {
         "id": 8,
-        "firstname": "Avery",
-        "lastname": "Quinn",
+        "firstname": "Jasmine",
+        "lastname": "Khalid",
         "tel": "0140892479",
-        "mail": "quinn43@gmail.com",
+        "mail": "khalid_jasmine@gmail.com",
         "age": 29,
         "rqth": false,
         "experiences": [
