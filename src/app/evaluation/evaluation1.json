@@ -125,6 +125,65 @@
         ],
         "biais": ["age", "ethnicity", "gender", "handicap"],
         "fitsDescription": true
+      },
+      {
+        "id": 3,
+        "firstname": "Marcel",
+        "lastname": "Lantier",
+        "tel": "0234356789",
+        "mail": "duschnok@gmail.com",
+        "age": 34,
+        "rqth": true,
+        "experiences": [
+          {
+            "company": "Company A",
+            "position": "Software Engineer",
+            "startDate": "2018-01-01",
+            "endDate": "2020-01-01",
+            "description": "Developed web applications using React and Node.js."
+          },
+          {
+            "company": "Company B",
+            "position": "Senior Developer",
+            "startDate": "2020-02-01",
+            "endDate": "Present",
+            "description": "Leading a team of developers in creating enterprise solutions."
+          }
+        ],
+        "education": [
+          {
+            "degree": "BSc in Computer Science",
+            "date": "2010-09-01",
+            "description": "Studied core computer science subjects and participated in various coding competitions."
+          }
+        ],
+        "hardSkills": [
+          "JavaScript",
+          "Angular",
+          "React",
+          "Node.js",
+          "TypeScript",
+          "HTML",
+          "CSS"
+        ],
+        "softSkills": ["JavaScript", "sympa"],
+        "languages": [
+          {
+            "language": "French",
+            "proficiency": "Native"
+          },
+          {
+            "language": "English",
+            "proficiency": "Fluent"
+          }
+        ],
+        "hobbies": [
+          {
+            "name": "basket"
+          }
+        ],
+        "biais": ["age", "ethnicity", "gender", "handicap"],
+        "fitsDescription": true
       }
     ],
     "jobDescription": {
