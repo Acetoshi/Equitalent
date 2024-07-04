@@ -145,26 +145,26 @@
       },
       {
         "id": 3,
-        "firstname": "Avery",
-        "lastname": "Quinn",
-        "tel": "0140892479",
-        "mail": "quinn43@gmail.com",
-        "age": 29,
-        "rqth": false,
+        "firstname": "Ryan",
+        "lastname": "Lefevre",
+        "tel": "+33 5 34 22 91 40",
+        "mail": "olaunay@example.org",
+        "age": 42,
+        "rqth": true,
         "experiences": [
           {
-            "company": "Company A",
-            "position": "Assistant Marketing",
-            "startDate": "2018-01-01",
-            "endDate": "2020-01-01",
-            "description": "Developed web applications using React and Node.js."
+            "company": "Dijoux Georges S.A.R.L.",
+            "position": "Responsable Marketing",
+            "startDate": "2008-06-01",
+            "endDate": "2023-01-01",
+            "description": "L'art de louer à sa source"
           },
           {
-            "company": "Company B",
-            "position": "Senior Developer",
-            "startDate": "2020-02-01",
+            "company": "De Sousa Pasquier S.A.S",
+            "position": "Chargé d'études Marketing",
+            "startDate": "2023-02-01",
             "endDate": "Present",
-            "description": "Leading a team of developers in creating enterprise solutions."
+            "description": "Le confort d'atteindre vos buts sans soucis"
           }
         ],
         "education": [
