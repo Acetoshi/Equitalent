@@ -9,7 +9,7 @@
   display: flex;
   justify-content: space-between;
   gap: 4em;
-  margin: 64px;
+  margin: 32px;
 }
 
 .analysis-globalscore-container {
@@ -112,8 +112,8 @@
 
 .mains-roses-droite {
   position: absolute;
-  bottom: 10px;
+  bottom: 8px;
   left: 65%;
-  width: 18em;
+  width: 14em;
   z-index: -1;
 }
