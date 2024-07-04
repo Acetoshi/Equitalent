@@ -1,7 +1,44 @@
 <section class="analysis-container">
-  <article classname="quote">
-    <section classname="contact">
-      <h3>Quote</h3>
-    </section>
-  </article>
+  <div class="analysis-score-group">
+    <article class="analysis-globalscore-container">
+      <h2>Score global</h2>
+      <h2>{{ data.analysis().globalScore }}%</h2>
+      <p>Voici votre score global. Il évalue votre propension a vous focaliser sur les bais de recrutement tel que l'age, le genre, l'origine et l'handicap</p>
+    </article>
+    <article class="analysis-biaisscore-container">
+      <hgroup>
+        <h3>Age</h3>
+        <h2>{{ data.analysis().ageScore }}</h2>
+        <div class="age-score-container">
+          <div class="age-score-jauge"></div>
+        </div>
+      </hgroup>
+      <hgroup>
+        <h3>Genre</h3>
+        <h2>{{ data.analysis().genderScore }}</h2>
+        <div class="gender-score-container">
+          <div class="gender-score-jauge"></div>
+        </div>
+      </hgroup>
+      <hgroup>
+        <h3>Handicap</h3>
+        <h2>{{ data.analysis().handicapScore }}</h2>
+        <div class="handicap-score-container">
+          <div class="gender-score-jauge"></div>
+        </div>
+      </hgroup>
+      <hgroup>
+        <h3>Origine</h3>
+        <h2>{{ data.analysis().ethnicScore }}</h2>
+        <div class="ethnic-score-container">
+          <div class="ethnic-score-jauge"></div>
+        </div>
+      </hgroup>
+ <p> Lorem ipsum dolor sit amet consectetur. In ultrices in nulla dolor est. Dictumst nunc sed et sodales a sit. Diam gravida in turpis amet odio. Lectus augue nisi varius risus nunc natoque dignissim. Eros pulvinar diam posuere massa urna tincidunt ac interdum libero. Habitant turpis arcu odio purus faucibus quis habitasse tincidunt. In in elit lectus felis varius.</p>
+    </article>
+  </div>
+  <!-- <h2>Vous voulez renforcer vos compétences ?</h2>
+  <a class="button-accent3 button-accent">En savoir +</a>
+  <img src="/main-gauche.svg" alt="" />
+  <img src="/main-droite.svg" alt=""/> -->
 </section>
