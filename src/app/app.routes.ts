@@ -1,20 +1,31 @@
-import { NgModule } from "@angular/core";
-import { RouterModule, Routes } from "@angular/router";
-import { AnalysisComponent } from "./analysis/analysis.component";
-import { HomepageComponent } from "./homepage/homepage.component";
-import { GoodpractisesComponent } from "./goodpractises/goodpractises.component";
-import { EvaluationComponent } from "./evaluation/evaluation.component";
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
+import { HomepageComponent } from './homepage/homepage.component';
+import { EvaluationComponent } from './evaluation/evaluation.component';
+import { AnalysisComponent } from './analysis/analysis.component';
+import { GoodPractisesComponent } from './goodpractises/goodpractises.component';
+import { WithNavbarLayoutComponent } from './layouts/with-navbar-layout/with-navbar-layout.component';
 
 export const routes: Routes = [
-  { path: "analysis", component: AnalysisComponent },
-  { path: "good-practises", component: GoodpractisesComponent },
-  { path: "evaluation", component: EvaluationComponent },
-  { path: "home", component: HomepageComponent },
-  { path: "", redirectTo: "/home", pathMatch: "full" },
+  {
+    path: '',
+    component: HomepageComponent,
+  },
+  {
+    path: 'equitalent',
+    component: WithNavbarLayoutComponent,
+    children: [
+      { path: 'evaluation', component: EvaluationComponent },
+      { path: 'analysis', component: AnalysisComponent },
+      { path: 'good-practises', component: GoodPractisesComponent }
+    ]
+  },
+  // Rediriger les chemins inconnus vers la page d'accueil
+  // { path: '**', redirectTo: '', pathMatch: 'full' }
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule],
+  exports: [RouterModule]
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }
