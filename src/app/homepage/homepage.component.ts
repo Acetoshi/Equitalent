@@ -19,11 +19,6 @@ import { RouterModule } from "@angular/router";
           id="logo-typographic"
           src="/logoText.svg"
           />
-          <!-- <img
-          alt="logo equitalent avec le E dans une loupe"
-          class="logo-typographic"
-          src="/blueTypoLogo.svg"
-        /> -->
       </div>
       <section class="call-to-action">
         <h1>Serez-vous le meilleur RH ?</h1>
