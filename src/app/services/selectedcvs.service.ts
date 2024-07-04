@@ -77,6 +77,7 @@ export class SelectedcvsService {
       const CV = Cvdata[0].cvs.filter((el) => el.id === dislikedCVid)[0];
       // si il correspondait et qu'il a un biais, on augmente le biais en question et on descend le score
       if (CV.fitsDescription === true && CV.biais.length) {
+        results.globalScore = results.globalScore - 10;
         for (let biais of CV.biais) {
           if (biais === "age") results.ageScore++;
           if (biais === "gender") results.genderScore++;
