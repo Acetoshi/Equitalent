@@ -1,8 +1,10 @@
 <main>
-  <img alt="" class="background-wave" src="/clearGreenWave.svg"/>
+  <img alt="" class="background-wave" src="/clearGreenWave.svg" />
   <section class="job-description">
     <h1>{{ jobDescription.title }}</h1>
-    <p>{{ jobDescription.text }}</p>
+    @for (paragraph of jobDescription.text; track paragraph){
+    <p>{{ paragraph }}</p>
+    }
   </section>
   <section class="cv-container">
     @for (cv of cvs; track cv.id) {
@@ -49,14 +51,14 @@
             (click)="onDislike(cv.id)"
             [disabled]="data.likedCVs.includes(cv.id)"
           >
-            Ecarter
+            ✕ ECARTER
           </button>
           <button
             class="button-accent button-accent2"
             (click)="onLike(cv.id)"
             [disabled]="data.dislikedCVs.includes(cv.id)"
           >
-            Retenir
+            ♥ RETENIR
           </button>
         </section>
       </article>
