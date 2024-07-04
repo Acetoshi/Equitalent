@@ -549,6 +549,136 @@
     "jobDescription": {
       "title": "Responsable marketing",
       "text": "Nous recherchons un Responsable marketing talentueux et passionné pour rejoindre notre équipe dynamique."
+=======
+{
+  "cvs": [
+    {
+      "id": 1,
+      "firstname": "Marcel",
+      "lastname": "Lantier",
+      "tel": "0234356789",
+      "mail": "duschnok@gmail.com",
+      "age": 34,
+      "experiences": [
+        {
+          "company": "Company A",
+          "position": "Software Engineer",
+          "startDate": "2018-01-01",
+          "endDate": "2020-01-01",
+          "description": "Developed web applications using React and Node.js."
+        },
+        {
+          "company": "Company B",
+          "position": "Senior Developer",
+          "startDate": "2020-02-01",
+          "endDate": "Present",
+          "description": "Leading a team of developers in creating enterprise solutions."
+        }
+      ],
+      "education": [
+        {
+          "degree": "BSc in Computer Science",
+          "date": "2010-09-01",
+          "description": "Studied core computer science subjects and participated in various coding competitions."
+        }
+      ],
+      "hardSkills": [
+        "JavaScript",
+        "Angular",
+        "React",
+        "Node.js",
+        "TypeScript",
+        "HTML",
+        "CSS"
+      ],
+      "softSkills": ["JavaScript", "sympa"],
+      "languages": [
+        {
+          "language": "French",
+          "proficiency": "Native"
+        },
+        {
+          "language": "English",
+          "proficiency": "Fluent"
+        }
+      ],
+      "hobbies": [
+        {
+          "name": "basket"
+        }
+      ],
+      "biais": ["age", "ethnicity", "gender", "handicap"],
+      "fitsDescription": true
+    },
+    {
+      "id": 2,
+      "firstname": "Sophie",
+      "lastname": "Dupont",
+      "tel": "0345678910",
+      "mail": "sophie.dupont@example.com",
+      "age": 29,
+      "experiences": [
+        {
+          "company": "Company C",
+          "position": "Frontend Developer",
+          "startDate": "2016-03-01",
+          "endDate": "2019-07-01",
+          "description": "Implemented responsive web designs using HTML, CSS, and JavaScript."
+        },
+        {
+          "company": "Company D",
+          "position": "Full Stack Developer",
+          "startDate": "2019-08-01",
+          "endDate": "Present",
+          "description": "Developing and maintaining web applications using React and Node.js."
+        }
+      ],
+      "education": [
+        {
+          "degree": "MSc in Information Technology",
+          "date": "2012-09-01",
+          "description": "Specialized in web development and software engineering."
+        }
+      ],
+      "hardSkills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "SQL",
+        "Python"
+      ],
+      "softSkills": ["Communication", "Problem-solving", "Teamwork"],
+      "languages": [
+        {
+          "language": "French",
+          "proficiency": "Native"
+        },
+        {
+          "language": "English",
+          "proficiency": "Fluent"
+        },
+        {
+          "language": "Spanish",
+          "proficiency": "Intermediate"
+        }
+      ],
+      "hobbies": [
+        {
+          "name": "reading"
+        },
+        {
+          "name": "hiking"
+        }
+      ],
+      "biais": ["age", "ethnicity", "gender", "handicap"],
+      "fitsDescription": true
+
     }
+  ],
+  "jobDescription": {
+    "title": "Développeur Web",
+    "text": "Nous recherchons un Développeur Web talentueux et passionné pour rejoindre notre équipe dynamique."
   }
-]
+

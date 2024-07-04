@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+
+  align-items: center;
+  gap: 5em;
+  background-color: var(--dark-color);
+  color: var(--light-color);
+}
+.avatar-connexion {
+  display: inline-flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.avatar-img {
+  width: 2.5em;
+  height: auto;
+  border-radius: 40px;
+  margin: 10px;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+
+  & a {
+    color: var(--light-color);
+    user-select: none;
+  }
+
+  & a:hover,
+  a.active {
+    color: var(--accent-color2);
+  }
+}
