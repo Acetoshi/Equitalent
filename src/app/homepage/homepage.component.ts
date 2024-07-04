@@ -8,13 +8,15 @@ import { RouterModule } from "@angular/router";
   template: `
     <main class="homepage">
       <h2>E QUITALENT</h2>
-      <h1>"Serez-vous le meilleur RH ?"</h1>
-      <a
-        class="button-accent button-accent-dark"
-        routerLink="equitalent/evaluation"
-        draggable="false"
-        >Trouvez les CV qui matchent le mieux avec l'annonce !</a
-      >
+      <section class="call-to-action">
+        <h1>"Serez-vous le meilleur RH ?"</h1>
+        <a
+          class="button-accent button-accent-dark"
+          routerLink="equitalent/evaluation"
+          draggable="false"
+          >Trouvez les CV qui matchent le mieux avec l'annonce !</a
+        >
+      </section>
     </main>
   `,
   styleUrls: [`./homepage.component.css`],
