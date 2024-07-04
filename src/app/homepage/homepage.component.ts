@@ -1,16 +1,16 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
+import { RouterModule } from "@angular/router";
 
 @Component({
-  selector: 'app-homepage',
+  selector: "app-homepage",
   standalone: true,
-  imports: [],
+  imports: [RouterModule],
   template: `
-    <p>
-      homepage works!
-    </p>
+    <p>homepage works!</p>
+    <a class="button-accent2" routerLink="equitalent/evaluation"
+      >Trouvez le CV qui match à l’emploi.</a
+    >
   `,
-  styles: ``
+  styles: ``,
 })
-export class HomepageComponent {
-
-}
+export class HomepageComponent {}

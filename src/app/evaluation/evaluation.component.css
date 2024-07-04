@@ -1,14 +1,15 @@
 main {
-  height: 100dvh;
+  height: calc(90svh);
   display: grid;
   grid-template: 1fr / 1fr 1fr;
-  gap: 32px;
-  padding: 32px;
+  gap: 64px;
+  padding: 64px;
+  margin:0;
 }
+
 
 .job-description,
 .cv-container {
-  float: left;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,7 +22,15 @@ li {
 }
 
 .job-description {
-  background-color: var(--dark-color);
+  background-color: var(--accent-color2);
+  padding: 32px;
+  border-radius: 16px;
+  & p {
+    color: var(--dark-color);
+  }
+  & h1 {
+    color: var(--dark-color);
+  }
 }
 
 .cv-container {
@@ -30,7 +39,11 @@ li {
 
 .cv {
   background-color: var(--light-color);
-  padding: 16px;
+  padding: 32px;
+  border-radius: 16px;
+  display:flex;
+  flex-direction: column;
+  gap:32px;
   & .button-section {
     display: flex;
     justify-content: space-between;

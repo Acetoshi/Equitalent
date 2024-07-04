@@ -1,22 +1,12 @@
 import { Component } from "@angular/core";
-import { RouterOutlet } from "@angular/router";
-import '../styles.css'
+import { RouterOutlet, RouterModule } from "@angular/router";
+import "../styles.css";
 
 @Component({
   selector: "app-root",
   standalone: true,
-  imports: [RouterOutlet],
-  template: `
-    <nav class="navbar">
-    <a href="/">Acceuil</a>
-    <a href="/evaluation">Evaluation</a>
-    <a href="/analysis"> Analyses </a>
-    <a href="/good-practises"> Bonnes pratiques </a>
-    </nav>
-
-    <router-outlet />
-  `,
-  styles: [],
+  imports: [RouterOutlet, RouterModule],
+  template: ` <router-outlet></router-outlet> `,
 })
 export class AppComponent {
   title = "hackathon";

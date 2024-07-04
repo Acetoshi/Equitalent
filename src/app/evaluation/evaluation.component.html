@@ -43,15 +43,26 @@
           </ul>
         </section>
         <section class="button-section">
-          <button (click)="onDislike(2)">Ecarter</button>
-          <button (click)="onLike(2)">Retenir</button>
+          <button
+            class="button-accent button-accent3"
+            (click)="onDislike(cv.id)"
+            [disabled]="data.likedCVs.includes(cv.id)"
+          >
+            Ecarter
+          </button>
+          <button
+            class="button-accent button-accent2"
+            (click)="onLike(cv.id)"
+            [disabled]="dislikedCVs.includes(cv.id)"
+          >
+            Retenir
+          </button>
         </section>
       </article>
     </li>
     } @empty {
     <li>There are no cvs.</li>
     }
-    <button>Passer à la suite</button>
+    <button class="button-accent2 button-accent">Passer à la suite</button>
   </section>
-  
 </main>
