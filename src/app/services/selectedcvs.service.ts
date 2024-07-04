@@ -17,9 +17,7 @@ export class SelectedcvsService {
   dislikedCVs: number[] = [];
   Cvdata: string[] = [];
 
-  constructor() {
-    console.log(this.dislikedCVs);
-  }
+  constructor() {}
 
   addToLiked(id: number): void {
     if (!this.likedCVs.includes(id)) {
@@ -80,12 +78,13 @@ export class SelectedcvsService {
       // si il correspondait et qu'il a un biais, on augmente le biais en question et on descend le score
       if (CV.fitsDescription === true && CV.biais.length) {
         for (let biais of CV.biais) {
-          console.log(biais);
-          if(biais==="age") results.ageScore++
-          if(biais==="gender") results.genderScore++
-          if(biais==="ethnicity") results.ethnicScore++
-          if(biais==="handicap") results.handicapScore++
+          if (biais === "age") results.ageScore++;
+          if (biais === "gender") results.genderScore++;
+          if (biais === "ethnicity") results.ethnicScore++;
+          if (biais === "handicap") results.handicapScore++;
         }
+      } else if (!CV.fitsDescription) {
+        results.globalScore += 10;
       }
     }
 
