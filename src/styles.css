@@ -51,6 +51,11 @@ li {
   background-color: var(--accent-color3);
 }
 
+.button-accent-dark{
+    background-color: var(--dark-color);
+    color: var(--accent-color2);
+  }
+
 .button-accent:hover {
   cursor: pointer;
 }
