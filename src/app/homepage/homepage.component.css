@@ -1,9 +1,4 @@
 .homepage {
-  /* display: grid;
-  grid-template: 1fr 1fr / 1fr;
-  height: 100svh;
-  align-items: center;
-  justify-items: center; */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
