@@ -1,131 +1,555 @@
-{
-  "cvs": [
-    {
+[
+  {
+    "cvs": [
+      {
+        "id": 1,
+        "firstname": "Marcel",
+        "lastname": "Lantier",
+        "tel": "0234356789",
+        "mail": "duschnok@gmail.com",
+        "age": 34,
+        "rqth": true,
+        "experiences": [
+          {
+            "company": "Company A",
+            "position": "Software Engineer",
+            "startDate": "2018-01-01",
+            "endDate": "2020-01-01",
+            "description": "Developed web applications using React and Node.js."
+          },
+          {
+            "company": "Company B",
+            "position": "Senior Developer",
+            "startDate": "2020-02-01",
+            "endDate": "Present",
+            "description": "Leading a team of developers in creating enterprise solutions."
+          }
+        ],
+        "education": [
+          {
+            "degree": "BSc in Computer Science",
+            "date": "2010-09-01",
+            "description": "Studied core computer science subjects and participated in various coding competitions."
+          }
+        ],
+        "hardSkills": [
+          "JavaScript",
+          "Angular",
+          "React",
+          "Node.js",
+          "TypeScript",
+          "HTML",
+          "CSS"
+        ],
+        "softSkills": [
+          "JavaScript",
+          "sympa"
+        ],
+        "languages": [
+          {
+            "language": "French",
+            "proficiency": "Native"
+          },
+          {
+            "language": "English",
+            "proficiency": "Fluent"
+          }
+        ],
+        "hobbies": [
+          {
+            "name": "basket"
+          }
+        ],
+        "biais": [
+          "age",
+          "ethnicity",
+          "gender",
+          "handicap"
+        ],
+        "fitsDescription": true
+      },
+      {
+        "id": 2,
+        "firstname": "Sophie",
+        "lastname": "Dupont",
+        "tel": "0345678910",
+        "mail": "sophie.dupont@example.com",
+        "age": 29,
+        "rqth": false,
+        "experiences": [
+          {
+            "company": "Company C",
+            "position": "Frontend Developer",
+            "startDate": "2016-03-01",
+            "endDate": "2019-07-01",
+            "description": "Implemented responsive web designs using HTML, CSS, and JavaScript."
+          },
+          {
+            "company": "Company D",
+            "position": "Full Stack Developer",
+            "startDate": "2019-08-01",
+            "endDate": "Present",
+            "description": "Developing and maintaining web applications using React and Node.js."
+          }
+        ],
+        "education": [
+          {
+            "degree": "MSc in Information Technology",
+            "date": "2012-09-01",
+            "description": "Specialized in web development and software engineering."
+          }
+        ],
+        "hardSkills": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "React",
+          "Node.js",
+          "SQL",
+          "Python"
+        ],
+        "softSkills": [
+          "Communication",
+          "Problem-solving",
+          "Teamwork"
+        ],
+        "languages": [
+          {
+            "language": "French",
+            "proficiency": "Native"
+          },
+          {
+            "language": "English",
+            "proficiency": "Fluent"
+          },
+          {
+            "language": "Spanish",
+            "proficiency": "Intermediate"
+          }
+        ],
+        "hobbies": [
+          {
+            "name": "reading"
+          },
+          {
+            "name": "hiking"
+          }
+        ],
+        "biais": [
+          "age",
+          "ethnicity",
+          "gender",
+          "handicap"
+        ],
+        "fitsDescription": true
+      },
+      {
+        "id": 3,
+        "firstname": "Ryan",
+        "lastname": "Lefevre",
+        "tel": "+33 5 34 22 91 40",
+        "mail": "olaunay@example.org",
+        "age": 42,
+        "rqth": true,
+        "experiences": [
+          {
+            "company": "Dijoux Georges S.A.R.L.",
+            "position": "Responsable Marketing",
+            "startDate": "2008-06-01",
+            "endDate": "2023-01-01",
+            "description": "L'art de louer à sa source"
+          },
+          {
+            "company": "De Sousa Pasquier S.A.S",
+            "position": "Chargé d'études Marketing",
+            "startDate": "2023-02-01",
+            "endDate": "Present",
+            "description": "Le confort d'atteindre vos buts sans soucis"
+          }
+        ],
+        "education": [
+          {
+            "degree": "BSc in Computer Science",
+            "date": "2010-09-01",
+            "description": "Studied core computer science subjects and participated in various coding competitions."
+          }
+        ],
+        "hardSkills": [
+          "JavaScript",
+          "Angular",
+          "React",
+          "Node.js",
+          "TypeScript",
+          "HTML",
+          "CSS"
+        ],
+        "softSkills": [
+          "JavaScript",
+          "sympa"
+        ],
+        "languages": [
+          {
+            "language": "French",
+            "proficiency": "Native"
+          },
+          {
+            "language": "English",
+            "proficiency": "Fluent"
+          }
+        ],
+        "hobbies": [
+          {
+            "name": "basket"
+          }
+        ],
+        "biais": [
+          "age",
+          "ethnicity",
+          "gender",
+          "handicap"
+        ],
+        "fitsDescription": true
+      },
+      {
+        "id": 4,
+        "firstname": "Avery",
+        "lastname": "Quinn",
+        "tel": "0140892479",
+        "mail": "quinn43@gmail.com",
+        "age": 29,
+        "rqth": false,
+        "experiences": [
+          {
+            "company": "Company A",
+            "position": "Assistant Marketing",
+            "startDate": "2018-01-01",
+            "endDate": "2020-01-01",
+            "description": "Developed web applications using React and Node.js."
+          },
+          {
+            "company": "Company B",
+            "position": "Senior Developer",
+            "startDate": "2020-02-01",
+            "endDate": "Present",
+            "description": "Leading a team of developers in creating enterprise solutions."
+          }
+        ],
+        "education": [
+          {
+            "degree": "BSc in Computer Science",
+            "date": "2010-09-01",
+            "description": "Studied core computer science subjects and participated in various coding competitions."
+          }
+        ],
+        "hardSkills": [
+          "JavaScript",
+          "Angular",
+          "React",
+          "Node.js",
+          "TypeScript",
+          "HTML",
+          "CSS"
+        ],
+        "softSkills": [
+          "JavaScript",
+          "sympa"
+        ],
+        "languages": [
+          {
+            "language": "French",
+            "proficiency": "Native"
+          },
+          {
+            "language": "English",
+            "proficiency": "Fluent"
+          }
+        ],
+        "hobbies": [
+          {
+            "name": "basket"
+          }
+        ],
+        "biais": [
+          "age",
+          "ethnicity",
+          "gender",
+          "handicap"
+        ],
+        "fitsDescription": true
+      },
+      {
+        "id": 5,
+        "firstname": "Avery",
+        "lastname": "Quinn",
+        "tel": "0140892479",
+        "mail": "quinn43@gmail.com",
+        "age": 29,
+        "rqth": false,
+        "experiences": [
+          {
+            "company": "Company A",
+            "position": "Assistant Marketing",
+            "startDate": "2018-01-01",
+            "endDate": "2020-01-01",
+            "description": "Developed web applications using React and Node.js."
+          },
+          {
+            "company": "Company B",
+            "position": "Senior Developer",
+            "startDate": "2020-02-01",
+            "endDate": "Present",
+            "description": "Leading a team of developers in creating enterprise solutions."
+          }
+        ],
+        "education": [
+          {
+            "degree": "BSc in Computer Science",
+            "date": "2010-09-01",
+            "description": "Studied core computer science subjects and participated in various coding competitions."
+          }
+        ],
+        "hardSkills": [
+          "JavaScript",
+          "Angular",
+          "React",
+          "Node.js",
+          "TypeScript",
+          "HTML",
+          "CSS"
+        ],
+        "softSkills": [
+          "JavaScript",
+          "sympa"
+        ],
+        "languages": [
+          {
+            "language": "French",
+            "proficiency": "Native"
+          },
+          {
+            "language": "English",
+            "proficiency": "Fluent"
+          }
+        ],
+        "hobbies": [
+          {
+            "name": "basket"
+          }
+        ],
+        "biais": [
+          "age",
+          "ethnicity",
+          "gender",
+          "handicap"
+        ],
+        "fitsDescription": true
+      },
+      {
+        "id": 6,
+        "firstname": "Avery",
+        "lastname": "Quinn",
+        "tel": "0140892479",
+        "mail": "quinn43@gmail.com",
+        "age": 29,
+        "rqth": false,
+        "experiences": [
+          {
+            "company": "Company A",
+            "position": "Assistant Marketing",
+            "startDate": "2018-01-01",
+            "endDate": "2020-01-01",
+            "description": "Developed web applications using React and Node.js."
+          },
+          {
+            "company": "Company B",
+            "position": "Senior Developer",
+            "startDate": "2020-02-01",
+            "endDate": "Present",
+            "description": "Leading a team of developers in creating enterprise solutions."
+          }
+        ],
+        "education": [
+          {
+            "degree": "BSc in Computer Science",
+            "date": "2010-09-01",
+            "description": "Studied core computer science subjects and participated in various coding competitions."
+          }
+        ],
+        "hardSkills": [
+          "JavaScript",
+          "Angular",
+          "React",
+          "Node.js",
+          "TypeScript",
+          "HTML",
+          "CSS"
+        ],
+        "softSkills": [
+          "JavaScript",
+          "sympa"
+        ],
+        "languages": [
+          {
+            "language": "French",
+            "proficiency": "Native"
+          },
+          {
+            "language": "English",
+            "proficiency": "Fluent"
+          }
+        ],
+        "hobbies": [
+          {
+            "name": "basket"
+          }
+        ],
+        "biais": [
+          "age",
+          "ethnicity",
+          "gender",
+          "handicap"
+        ],
+        "fitsDescription": true
+      },
+      {
+        "id": 7,
+        "firstname": "Avery",
+        "lastname": "Quinn",
+        "tel": "0140892479",
+        "mail": "quinn43@gmail.com",
+        "age": 29,
+        "rqth": false,
+        "experiences": [
+          {
+            "company": "Company A",
+            "position": "Assistant Marketing",
+            "startDate": "2018-01-01",
+            "endDate": "2020-01-01",
+            "description": "Developed web applications using React and Node.js."
+          },
+          {
+            "company": "Company B",
+            "position": "Senior Developer",
+            "startDate": "2020-02-01",
+            "endDate": "Present",
+            "description": "Leading a team of developers in creating enterprise solutions."
+          }
+        ],
+        "education": [
+          {
+            "degree": "BSc in Computer Science",
+            "date": "2010-09-01",
+            "description": "Studied core computer science subjects and participated in various coding competitions."
+          }
+        ],
+        "hardSkills": [
+          "JavaScript",
+          "Angular",
+          "React",
+          "Node.js",
+          "TypeScript",
+          "HTML",
+          "CSS"
+        ],
+        "softSkills": [
+          "JavaScript",
+          "sympa"
+        ],
+        "languages": [
+          {
+            "language": "French",
+            "proficiency": "Native"
+          },
+          {
+            "language": "English",
+            "proficiency": "Fluent"
+          }
+        ],
+        "hobbies": [
+          {
+            "name": "basket"
+          }
+        ],
+        "biais": [
+          "age",
+          "ethnicity",
+          "gender",
+          "handicap"
+        ],
+        "fitsDescription": true
+      },
+      {
+        "id": 8,
+        "firstname": "Avery",
+        "lastname": "Quinn",
+        "tel": "0140892479",
+        "mail": "quinn43@gmail.com",
+        "age": 29,
+        "rqth": false,
+        "experiences": [
+          {
+            "company": "Company A",
+            "position": "Assistant Marketing",
+            "startDate": "2018-01-01",
+            "endDate": "2020-01-01",
+            "description": "Developed web applications using React and Node.js."
+          },
+          {
+            "company": "Company B",
+            "position": "Senior Developer",
+            "startDate": "2020-02-01",
+            "endDate": "Present",
+            "description": "Leading a team of developers in creating enterprise solutions."
+          }
+        ],
+        "education": [
+          {
+            "degree": "BSc in Computer Science",
+            "date": "2010-09-01",
+            "description": "Studied core computer science subjects and participated in various coding competitions."
+          }
+        ],
+        "hardSkills": [
+          "JavaScript",
+          "Angular",
+          "React",
+          "Node.js",
+          "TypeScript",
+          "HTML",
+          "CSS"
+        ],
+        "softSkills": [
+          "JavaScript",
+          "sympa"
+        ],
+        "languages": [
+          {
+            "language": "French",
+            "proficiency": "Native"
+          },
+          {
+            "language": "English",
+            "proficiency": "Fluent"
+          }
+        ],
+        "hobbies": [
+          {
+            "name": "basket"
+          }
+        ],
+        "biais": [
+          "age",
+          "ethnicity",
+          "gender",
+          "handicap"
+        ],
+        "fitsDescription": true
+      }
+    ],
+    "jobDescription": {
       "id": 1,
-      "firstname": "Marcel",
-      "lastname": "Lantier",
-      "tel": "0234356789",
-      "mail": "duschnok@gmail.com",
-      "age": 34,
-      "experiences": [
-        {
-          "company": "Company A",
-          "position": "Software Engineer",
-          "startDate": "2018-01-01",
-          "endDate": "2020-01-01",
-          "description": "Developed web applications using React and Node.js."
-        },
-        {
-          "company": "Company B",
-          "position": "Senior Developer",
-          "startDate": "2020-02-01",
-          "endDate": "Present",
-          "description": "Leading a team of developers in creating enterprise solutions."
-        }
-      ],
-      "education": [
-        {
-          "degree": "BSc in Computer Science",
-          "date": "2010-09-01",
-          "description": "Studied core computer science subjects and participated in various coding competitions."
-        }
-      ],
-      "hardSkills": [
-        "JavaScript",
-        "Angular",
-        "React",
-        "Node.js",
-        "TypeScript",
-        "HTML",
-        "CSS"
-      ],
-      "softSkills": ["JavaScript", "sympa"],
-      "languages": [
-        {
-          "language": "French",
-          "proficiency": "Native"
-        },
-        {
-          "language": "English",
-          "proficiency": "Fluent"
-        }
-      ],
-      "hobbies": [
-        {
-          "name": "basket"
-        }
-      ],
-      "biais": ["age", "ethnicity", "gender", "handicap"],
-      "fitsDescription": true
-    },
-    {
-      "id": 2,
-      "firstname": "Sophie",
-      "lastname": "Dupont",
-      "tel": "0345678910",
-      "mail": "sophie.dupont@example.com",
-      "age": 29,
-      "experiences": [
-        {
-          "company": "Company C",
-          "position": "Frontend Developer",
-          "startDate": "2016-03-01",
-          "endDate": "2019-07-01",
-          "description": "Implemented responsive web designs using HTML, CSS, and JavaScript."
-        },
-        {
-          "company": "Company D",
-          "position": "Full Stack Developer",
-          "startDate": "2019-08-01",
-          "endDate": "Present",
-          "description": "Developing and maintaining web applications using React and Node.js."
-        }
-      ],
-      "education": [
-        {
-          "degree": "MSc in Information Technology",
-          "date": "2012-09-01",
-          "description": "Specialized in web development and software engineering."
-        }
-      ],
-      "hardSkills": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React",
-        "Node.js",
-        "SQL",
-        "Python"
-      ],
-      "softSkills": ["Communication", "Problem-solving", "Teamwork"],
-      "languages": [
-        {
-          "language": "French",
-          "proficiency": "Native"
-        },
-        {
-          "language": "English",
-          "proficiency": "Fluent"
-        },
-        {
-          "language": "Spanish",
-          "proficiency": "Intermediate"
-        }
-      ],
-      "hobbies": [
-        {
-          "name": "reading"
-        },
-        {
-          "name": "hiking"
-        }
-      ],
-      "biais": ["age", "ethnicity", "gender", "handicap"],
-      "fitsDescription": true
+      "title": "RESPONSABLE MARKETING",
+      "text": "Nous recherchons un Responsable Marketing talentueux pour rejoindre notre équipe dynamique. Le candidat idéal aura une solide expérience en marketing digital, en gestion de campagnes et en analyse de données. Responsabilités : Développer et mettre en œuvre des stratégies marketing pour accroître la notoriété de la marque. Gérer et optimiser les campagnes de marketing digital (SEO, SEM, email marketing, etc.). Analyser les performances des campagnes et proposer des améliorations. Collaborer avec les équipes de vente et de produit pour aligner les stratégies marketing. Superviser la création de contenus marketing (articles de blog, infographies, vidéos, etc.). Qualifications : Diplôme en marketing, communication ou domaine connexe. Expérience de 3 à 5 ans en marketing digital. Maîtrise des outils d'analyse de données (Google Analytics, SEMrush, etc.). Excellentes compétences en communication écrite et orale. Capacité à travailler en équipe et à gérer plusieurs projets simultanément. Lieu : Paris, France. Type de contrat : CDI. Salaire : À négocier selon expérience. Contact : email - recrutement@entreprise.com, téléphone - +33 1 23 45 67 89."
     }
-  ],
-  "jobDescription": {
-    "title": "Développeur Web",
-    "text": "Nous recherchons un Développeur Web talentueux et passionné pour rejoindre notre équipe dynamique."
   }
-}
+]
