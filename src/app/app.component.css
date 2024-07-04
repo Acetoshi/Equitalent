@@ -2,7 +2,6 @@
   display: flex;
 
   align-items: center;
-  border: black 1px solid;
   gap: 5em;
   background-color: var(--dark-color);
   color: var(--light-color);

@@ -23,7 +23,7 @@ h3,
 h4,
 a {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
   text-decoration: none;
 }
@@ -38,7 +38,7 @@ li {
 
 .button-accent {
   padding: 16px 32px;
-  color: var(--light-color);
+  color: var(--dark-color);
   border-radius: 32px;
   border: 0px;
 }
@@ -56,7 +56,8 @@ li {
 }
 
 .button-accent:disabled {
-  background-color: #d9d9d9;
+  background-color: var(--light-color);
+  opacity: 50%;
   color: black;
   cursor: auto;
 }
