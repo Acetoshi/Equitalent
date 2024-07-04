@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
     <p>
       goodpractises works!
     </p>
+    <img alt="" class="background-wave" src="/clearGreenWave.svg"/>
   `,
   styles: ``
 })

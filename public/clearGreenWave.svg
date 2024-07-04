@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Calque_1"
+   data-name="Calque 1"
+   version="1.1"
+   viewBox="0 0 592.30006 474.03187"
+   sodipodi:docname="clearGreenWave.svg"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   width="592.30005"
+   height="474.03186"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.0120191"
+     inkscape:cx="276.67462"
+     inkscape:cy="187.74349"
+     inkscape:window-width="1920"
+     inkscape:window-height="1056"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Calque_1" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">
+      .cls-1 {
+        fill: #b2f9e3;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <path
+     class="cls-1"
+     d="M 592.13954,0.01012862 C 591.20148,49.684124 593.6971,61.45364 591.6833,66.74992 c -10.08559,26.52511 -19.7076,47.8557 -53.68808,67.06436 -63.44945,35.12726 -168.44373,-3.46786 -240.27177,9.43536 -103.35898,18.56745 -142.20169,98.82559 -298.17289339,87.78508 l 0.2341,-231.57358309 z"
+     id="path1"
+     sodipodi:nodetypes="cscsccc" />
+</svg>
