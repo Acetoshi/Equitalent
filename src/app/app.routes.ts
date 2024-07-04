@@ -4,7 +4,6 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { EvaluationComponent } from './evaluation/evaluation.component';
 import { AnalysisComponent } from './analysis/analysis.component';
 import { GoodPractisesComponent } from './goodpractises/goodpractises.component';
-import { NoNavbarLayoutComponent } from './layouts/no-navbar-layout/no-navbar-layout.component';
 import { WithNavbarLayoutComponent } from './layouts/with-navbar-layout/with-navbar-layout.component';
 
 export const routes: Routes = [
