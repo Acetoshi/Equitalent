@@ -11,6 +11,7 @@ export class AnalysisComponent implements OnInit {
   data = inject(SelectedcvsService)
 
   ngOnInit() {
-    console.log(this.data.likedCVs);
+    console.log("liked :",this.data.likedCVs,"disliked :",this.data.dislikedCVs);
+    console.log(this.data.analysis())
   }
 }

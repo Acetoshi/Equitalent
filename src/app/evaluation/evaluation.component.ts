@@ -12,23 +12,14 @@ import { SelectedcvsService } from "../services/selectedcvs.service";
 export class EvaluationComponent {
   cvs = evaluation[0].cvs;
   jobDescription = evaluation[0].jobDescription;
-  dislikedCVs: number[] = [];
 
   data = inject(SelectedcvsService);
 
   onDislike(id: number): void {
-    if (!this.dislikedCVs.includes(id)) {
-      this.dislikedCVs.push(id);
-    } else {
-      const index = this.dislikedCVs.indexOf(id);
-      if (index > -1) {
-        this.dislikedCVs.splice(index, 1);
-      }
-    }
+    this.data.addToDisliked(id);
   }
 
   onLike(id: number): void {
-    this.data.add(id);
-    console.log(this.data.get());
+    this.data.addToLiked(id);
   }
 }

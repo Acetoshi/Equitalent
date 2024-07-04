@@ -141,7 +141,7 @@
           "gender",
           "handicap"
         ],
-        "fitsDescription": true
+        "fitsDescription": false
       },
       {
         "id": 3,
