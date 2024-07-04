@@ -10,8 +10,8 @@ import { SelectedcvsService } from "../services/selectedcvs.service";
   styleUrls: ["./evaluation.component.css"],
 })
 export class EvaluationComponent {
-  cvs = evaluation.cvs;
-  jobDescription = evaluation.jobDescription;
+  cvs = evaluation[0].cvs;
+  jobDescription = evaluation[0].jobDescription;
   dislikedCVs: number[] = [];
 
   data = inject(SelectedcvsService);
