@@ -1,13 +1,17 @@
 import { Injectable } from "@angular/core";
+import Cvdata  from "../evaluation/evaluation1.json";
 
 @Injectable({
   providedIn: "root",
 })
 export class SelectedcvsService {
   likedCVs: number[] = [];
+  Cvdata : string[] = [];
+
 
   constructor() {
     console.log("SelectedcvsService instance created");
+    console.log("cecie est",Cvdata);
   }
 
   add(id: number): void {
@@ -23,5 +27,9 @@ export class SelectedcvsService {
 
   get(): number[] {
     return this.likedCVs;
+  }
+
+analysis(): void {
+    return console.log(this.Cvdata);
   }
 }
