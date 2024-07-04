@@ -3,23 +3,23 @@
     "cvs": [
       {
         "id": 1,
-        "firstname": "Marcel",
-        "lastname": "Lantier",
+        "firstname": "Yasmine",
+        "lastname": "Smirnov",
         "tel": "0234356789",
-        "mail": "duschnok@gmail.com",
+        "mail": "eugenemarion@example.org",
         "age": 34,
         "rqth": true,
         "experiences": [
           {
-            "company": "Company A",
-            "position": "Software Engineer",
+            "company": "Alexandre",
+            "position": "Chef de projet Marketing",
             "startDate": "2018-01-01",
             "endDate": "2020-01-01",
             "description": "Developed web applications using React and Node.js."
           },
           {
-            "company": "Company B",
-            "position": "Senior Developer",
+            "company": "Lefèvre Boulay et Fils",
+            "position": "Chef de projet Marketing",
             "startDate": "2020-02-01",
             "endDate": "Present",
             "description": "Leading a team of developers in creating enterprise solutions."
@@ -27,23 +27,21 @@
         ],
         "education": [
           {
-            "degree": "BSc in Computer Science",
-            "date": "2010-09-01",
+            "degree": "Licence en Communication marketing",
+            "date": "2000-09-01",
             "description": "Studied core computer science subjects and participated in various coding competitions."
           }
         ],
         "hardSkills": [
-          "JavaScript",
-          "Angular",
-          "React",
-          "Node.js",
-          "TypeScript",
-          "HTML",
-          "CSS"
+          "SEM (Search Engine Marketing)",
+          "Google Analytics",
+          "Marketing Automation Tools (e.g., HubSpot, Marketo)",
+          "Copywriting"
         ],
         "softSkills": [
-          "JavaScript",
-          "sympa"
+          "Esprit entrepreneurial",
+          "Gestion des conflits",
+          "Adaptabilité et flexibilité"
         ],
         "languages": [
           {
@@ -57,11 +55,10 @@
         ],
         "hobbies": [
           {
-            "name": "basket"
+            "name": "Photographie"
           }
         ],
         "biais": [
-          "age",
           "ethnicity",
           "gender",
           "handicap"
@@ -70,26 +67,19 @@
       },
       {
         "id": 2,
-        "firstname": "Sophie",
-        "lastname": "Dupont",
+        "firstname": "François",
+        "lastname": "Martin",
         "tel": "0345678910",
-        "mail": "sophie.dupont@example.com",
+        "mail": "martind44@example.com",
         "age": 29,
         "rqth": false,
         "experiences": [
           {
-            "company": "Company C",
-            "position": "Frontend Developer",
+            "company": "Diaz S.A.S.",
+            "position": "Responsable CRM",
             "startDate": "2016-03-01",
             "endDate": "2019-07-01",
-            "description": "Implemented responsive web designs using HTML, CSS, and JavaScript."
-          },
-          {
-            "company": "Company D",
-            "position": "Full Stack Developer",
-            "startDate": "2019-08-01",
-            "endDate": "Present",
-            "description": "Developing and maintaining web applications using React and Node.js."
+            "description": "Implemented responsive web designs"
           }
         ],
         "education": [
@@ -117,14 +107,6 @@
           {
             "language": "French",
             "proficiency": "Native"
-          },
-          {
-            "language": "English",
-            "proficiency": "Fluent"
-          },
-          {
-            "language": "Spanish",
-            "proficiency": "Intermediate"
           }
         ],
         "hobbies": [
@@ -136,12 +118,9 @@
           }
         ],
         "biais": [
-          "age",
-          "ethnicity",
-          "gender",
-          "handicap"
+          "age"
         ],
-        "fitsDescription": true
+        "fitsDescription": false
       },
       {
         "id": 3,
@@ -169,27 +148,28 @@
         ],
         "education": [
           {
-            "degree": "BSc in Computer Science",
-            "date": "2010-09-01",
-            "description": "Studied core computer science subjects and participated in various coding competitions."
+            "degree": "Licence en Marketing International",
+            "date": "2022-09-01",
+            "description": "Studied digital marketing."
           }
         ],
         "hardSkills": [
-          "JavaScript",
-          "Angular",
-          "React",
-          "Node.js",
-          "TypeScript",
-          "HTML",
-          "CSS"
+          "Public Relations",
+          "Graphic Design (e.g., Adobe Photoshop, Illustrator)",
+          "Conversion Rate Optimization (CRO)",
+          "Research and Analysis",
+          "Budget Management",
+          "Social Media Managemen",
+          "Sales Funnel Management"
         ],
         "softSkills": [
-          "JavaScript",
-          "sympa"
+          "Capacité à inspirer et motiver",
+          "Esprit analytique",
+          "Capacité à travailler en équipe"
         ],
         "languages": [
           {
-            "language": "French",
+            "language": "Spanish",
             "proficiency": "Native"
           },
           {
@@ -199,13 +179,18 @@
         ],
         "hobbies": [
           {
-            "name": "basket"
+            "name": "Sport"
+          },
+          {
+            "name": "Cinema"
+          },
+          {
+            "name": "Cuisine"
           }
         ],
         "biais": [
           "age",
           "ethnicity",
-          "gender",
           "handicap"
         ],
         "fitsDescription": true
@@ -216,15 +201,15 @@
         "lastname": "Quinn",
         "tel": "0140892479",
         "mail": "quinn43@gmail.com",
-        "age": 29,
+        "age": 30,
         "rqth": false,
         "experiences": [
           {
-            "company": "Company A",
-            "position": "Assistant Marketing",
+            "company": "Vallée",
+            "position": "Chargé de communication",
             "startDate": "2018-01-01",
             "endDate": "2020-01-01",
-            "description": "Developed web applications using React and Node.js."
+            "description": "La liberté d'atteindre vos buts naturellement"
           },
           {
             "company": "Company B",
@@ -236,7 +221,7 @@
         ],
         "education": [
           {
-            "degree": "BSc in Computer Science",
+            "degree": "Master",
             "date": "2010-09-01",
             "description": "Studied core computer science subjects and participated in various coding competitions."
           }
@@ -256,7 +241,7 @@
         ],
         "languages": [
           {
-            "language": "French",
+            "language": "Allemand",
             "proficiency": "Native"
           },
           {
@@ -272,38 +257,37 @@
         "biais": [
           "age",
           "ethnicity",
-          "gender",
-          "handicap"
+          "gender"
         ],
-        "fitsDescription": true
+        "fitsDescription": false
       },
       {
         "id": 5,
-        "firstname": "Avery",
-        "lastname": "Quinn",
+        "firstname": "Mei",
+        "lastname": "Fahd",
         "tel": "0140892479",
-        "mail": "quinn43@gmail.com",
-        "age": 29,
-        "rqth": false,
+        "mail": "le-goffmarianne@example.com",
+        "age": 47,
+        "rqth": true,
         "experiences": [
           {
-            "company": "Company A",
+            "company": "Leroy SARL",
             "position": "Assistant Marketing",
-            "startDate": "2018-01-01",
-            "endDate": "2020-01-01",
-            "description": "Developed web applications using React and Node.js."
+            "startDate": "2005-01-01",
+            "endDate": "2015-01-01",
+            "description": "Le confort de louer à sa source."
           },
           {
-            "company": "Company B",
-            "position": "Senior Developer",
+            "company": "Gosselin",
+            "position": "Chargé d'études Marketing",
             "startDate": "2020-02-01",
             "endDate": "Present",
-            "description": "Leading a team of developers in creating enterprise solutions."
+            "description": "creating enterprise solutions."
           }
         ],
         "education": [
           {
-            "degree": "BSc in Computer Science",
+            "degree": "BTS en Marketing",
             "date": "2010-09-01",
             "description": "Studied core computer science subjects and participated in various coding competitions."
           }
@@ -325,24 +309,19 @@
           {
             "language": "French",
             "proficiency": "Native"
-          },
-          {
-            "language": "English",
-            "proficiency": "Fluent"
           }
         ],
         "hobbies": [
           {
-            "name": "basket"
+            "name": "Art"
           }
         ],
         "biais": [
           "age",
           "ethnicity",
-          "gender",
           "handicap"
         ],
-        "fitsDescription": true
+        "fitsDescription": false
       },
       {
         "id": 6,
